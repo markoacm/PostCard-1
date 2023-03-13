@@ -1,0 +1,62 @@
+body {
+  background: black;
+}
+
+* {
+  min-height: 5px;
+}
+
+.postcard {
+  background: white;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  font-family: "Patrick Hand", cursive;
+}
+
+.postcard-header {
+  display: flex;
+  padding: 10px;
+}
+
+.postcard-header img {
+  width: 50px;
+  height: 50px;
+}
+
+.postcard-header h1 {
+  width: 350px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.postcard-body {
+  display: flex;
+  padding: 5px;
+}
+
+.body-left p:first-child {
+  margin-top: 0;
+}
+
+.body-left,
+.body-right {
+  padding: 5px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+  font-family: "Patrick Hand", cursive;
+}
+
+.postcard-footer {
+  text-align: center;
+}
+
+button {
+  background-color: darkgray;
+  padding: 5px 8px;
+  font-family: "Patrick Hand", cursive;
+  border: none;
+}
